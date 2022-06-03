@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @lrtrintin
+- 👀 I’m interested in agile project management.
+- 🌱 I’m currently learning about agile management.
+- 💞️ I want to be a reference of qualified professional and change agent, responsible for potentiating the work of the team and ensuring that everyone understands and applies the proncípios of agility.
+- 📫 How to reach me: By e-mail luis.trintin@socin.com.br
