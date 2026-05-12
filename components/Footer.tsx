@@ -25,9 +25,9 @@ const footerLinks = [
     title: "Contato",
     links: [
       { label: "Agendar Alinhamento", href: "#cta" },
-      { label: "contato@vairu.com.br", href: "mailto:contato@vairu.com.br" },
-      { label: "+55 (11) 9 9999-9999", href: "tel:+5511999999999" },
-      { label: "WhatsApp", href: "https://wa.me/5511999999999" },
+      { label: "vairu.rs@gmail.com", href: "mailto:vairu.rs@gmail.com" },
+      { label: "+55 (51) 9 9794-3696", href: "tel:+5551997943696" },
+      { label: "WhatsApp", href: "https://wa.me/5551997943696" },
     ],
   },
 ];
@@ -35,8 +35,8 @@ const footerLinks = [
 const socials = [
   { icon: Linkedin, href: "#", label: "LinkedIn" },
   { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Mail, href: "mailto:contato@vairu.com.br", label: "E-mail" },
-  { icon: MessageCircle, href: "https://wa.me/5511999999999", label: "WhatsApp" },
+  { icon: Mail, href: "mailto:vairu.rs@gmail.com", label: "E-mail" },
+  { icon: MessageCircle, href: "https://wa.me/5551997943696", label: "WhatsApp" },
 ];
 
 export default function Footer() {
