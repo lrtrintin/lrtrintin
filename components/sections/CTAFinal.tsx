@@ -145,7 +145,7 @@ export default function CTAFinal() {
                 e já agende seu alinhamento.
               </p>
               <a
-                href={`https://wa.me/5511999999999?text=${whatsappMessage}`}
+                href={`https://wa.me/5551997943696?text=${whatsappMessage}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-whatsapp w-full justify-center"
@@ -158,7 +158,7 @@ export default function CTAFinal() {
             {/* Other contacts */}
             <div className="grid grid-cols-2 gap-4">
               <a
-                href="mailto:contato@vairu.com.br"
+                href="mailto:vairu.rs@gmail.com"
                 className="p-4 rounded-xl flex flex-col items-center gap-2 text-center transition-all duration-200 group"
                 style={{
                   background: "rgba(13,24,37,0.8)",
@@ -173,7 +173,7 @@ export default function CTAFinal() {
               >
                 <Mail size={20} className="text-olive-400" />
                 <div className="text-xs font-semibold text-slate-300">E-mail</div>
-                <div className="text-xs text-slate-500">contato@vairu.com.br</div>
+                <div className="text-xs text-slate-500">vairu.rs@gmail.com</div>
               </a>
               <div
                 className="p-4 rounded-xl flex flex-col items-center gap-2 text-center"
@@ -184,7 +184,7 @@ export default function CTAFinal() {
               >
                 <Phone size={20} className="text-olive-400" />
                 <div className="text-xs font-semibold text-slate-300">Telefone</div>
-                <div className="text-xs text-slate-500">+55 (11) 9 9999-9999</div>
+                <div className="text-xs text-slate-500">+55 (51) 9 9794-3696</div>
               </div>
             </div>
           </motion.div>
