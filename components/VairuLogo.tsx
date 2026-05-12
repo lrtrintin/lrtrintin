@@ -7,98 +7,98 @@ export default function VairuLogo({ className = "h-10 w-auto", iconOnly = false 
   if (iconOnly) {
     return (
       <svg
-        viewBox="0 0 52 52"
+        viewBox="0 0 100 88"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className={className}
         aria-label="Vairu Consulting"
         role="img"
       >
-        <path d="M4 6 L4 22 L22 14 Z" fill="#8A9B7A" />
-        <path d="M4 46 L4 30 L22 38 Z" fill="#6B7B5A" />
-        <path
-          d="M4 22 L4 30 L22 38 L22 14 Z"
-          fill="#5A6A4A"
-        />
-        <path d="M20 8 L20 44 L50 26 Z" fill="#0D1B2A" />
+        {/* Dark olive — upper-left shape */}
+        <path d="M2 2 L2 38 L48 20 Z" fill="#6B7B50" />
+        {/* Medium olive — lower-left shape */}
+        <path d="M2 50 L2 86 L48 68 Z" fill="#7A8B60" />
+        {/* Dark olive fill between the two left shapes */}
+        <path d="M2 38 L2 50 L48 44 L48 20 Z" fill="#5A6A42" opacity="0.6" />
+        {/* Main olive arrow — large right-pointing triangle */}
+        <path d="M28 6 L28 82 L92 44 Z" fill="#7A8B60" />
+        {/* Orange / gold accent — bottom-left triangle */}
+        <path d="M2 50 L2 86 L30 68 Z" fill="#F0A030" />
       </svg>
     );
   }
 
   return (
     <svg
-      viewBox="0 0 220 52"
+      viewBox="0 0 300 88"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
       aria-label="Vairu Consulting"
       role="img"
     >
-      {/* Icon mark */}
-      <path d="M2 5 L2 20 L18 12.5 Z" fill="#8A9B7A" />
-      <path d="M2 47 L2 32 L18 39.5 Z" fill="#6B7B5A" />
-      <path d="M2 20 L2 32 L18 39.5 L18 12.5 Z" fill="#5A6A4A" />
-      <path d="M16 6 L16 46 L46 26 Z" fill="#0D1B2A" />
+      {/* ── Icon mark ── */}
+      {/* Dark olive — upper-left shape */}
+      <path d="M2 2 L2 38 L48 20 Z" fill="#6B7B50" />
+      {/* Medium olive — lower-left shape */}
+      <path d="M2 50 L2 86 L48 68 Z" fill="#7A8B60" />
+      {/* Connecting fill between upper and lower left shapes */}
+      <path d="M2 38 L2 50 L48 44 L48 20 Z" fill="#5A6A42" opacity="0.55" />
+      {/* Main olive right-pointing arrow */}
+      <path d="M28 6 L28 82 L92 44 Z" fill="#7A8B60" />
+      {/* Orange accent — bottom-left triangle */}
+      <path d="M2 50 L2 86 L30 68 Z" fill="#F0A030" />
 
-      {/* "vairu" text */}
+      {/* ── "vairu" text ── */}
       {/* v */}
       <path
-        d="M60 17 L68 37 L76 17"
+        d="M112 26 L121 58 L130 26"
         stroke="#1A2744"
-        strokeWidth="3"
+        strokeWidth="4.5"
         strokeLinecap="round"
         strokeLinejoin="round"
         fill="none"
       />
       {/* a */}
       <path
-        d="M84 37 C84 37 84 22 93 22 C102 22 102 37 102 37 M84 30 L102 30"
+        d="M142 58 C142 58 140 40 150 38 C160 36 162 58 162 58"
         stroke="#1A2744"
-        strokeWidth="3"
+        strokeWidth="4.5"
         strokeLinecap="round"
-        strokeLinejoin="round"
         fill="none"
       />
-      {/* i */}
-      <circle cx="112" cy="17" r="2" fill="#E8941A" />
-      <line
-        x1="112"
-        y1="22"
-        x2="112"
-        y2="37"
-        stroke="#1A2744"
-        strokeWidth="3"
-        strokeLinecap="round"
-      />
+      <line x1="141" y1="49" x2="162" y2="46" stroke="#1A2744" strokeWidth="4.5" strokeLinecap="round" />
+      {/* i — dot orange */}
+      <circle cx="176" cy="28" r="3.5" fill="#F0A030" />
+      <line x1="176" y1="37" x2="176" y2="58" stroke="#1A2744" strokeWidth="4.5" strokeLinecap="round" />
       {/* r */}
+      <line x1="190" y1="58" x2="190" y2="37" stroke="#1A2744" strokeWidth="4.5" strokeLinecap="round" />
       <path
-        d="M122 37 L122 22 C122 22 130 20 136 27"
+        d="M190 42 C190 42 196 36 206 40"
         stroke="#1A2744"
-        strokeWidth="3"
+        strokeWidth="4.5"
         strokeLinecap="round"
-        strokeLinejoin="round"
         fill="none"
       />
       {/* u */}
       <path
-        d="M144 22 L144 32 C144 36 148 37 152 37 C156 37 160 36 160 32 L160 22"
+        d="M218 37 L218 50 C218 57 224 60 230 60 C236 60 242 57 242 50 L242 37"
         stroke="#1A2744"
-        strokeWidth="3"
+        strokeWidth="4.5"
         strokeLinecap="round"
         strokeLinejoin="round"
         fill="none"
       />
 
-      {/* CONSULTING text */}
+      {/* ── "CONSULTING" ── */}
       <text
-        x="60"
-        y="49"
-        fontFamily="system-ui, sans-serif"
-        fontSize="7"
+        x="112"
+        y="80"
+        fontFamily="system-ui, -apple-system, sans-serif"
+        fontSize="9.5"
         fontWeight="500"
-        letterSpacing="3"
-        fill="#6B7B8A"
-        textAnchor="start"
+        letterSpacing="4.5"
+        fill="#8A9A7A"
       >
         CONSULTING
       </text>

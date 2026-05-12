@@ -20,8 +20,7 @@ const services = [
     description:
       "Mapeamos com precisão onde estão seus gargalos, desperdícios e oportunidades. Entrevistas com liderança, análise de processos e avaliação de aderência para IA — tudo em um plano de ação de 30/60/90 dias.",
     deliverables: ["Relatório executivo", "Mapa visual de gargalos", "Plano de ação tático"],
-    gain: "+Clareza e decisões assertivas",
-    price: "R$ 6.000 — 10.000",
+    gain: "Clareza e decisões assertivas",
     color: "gold",
     featured: false,
   },
@@ -38,7 +37,6 @@ const services = [
       "Modelo ágil de gestão",
     ],
     gain: "+30% a 60% de produtividade",
-    price: "R$ 30.000 — 45.000",
     color: "gold",
     featured: true,
   },
@@ -55,7 +53,6 @@ const services = [
       "Capacitação integral",
     ],
     gain: "Autonomia real, menos dependência",
-    price: "R$ 8.000 — 20.000",
     color: "olive",
     featured: false,
   },
@@ -72,7 +69,6 @@ const services = [
       "Playbook completo",
     ],
     gain: "Previsibilidade e escala de receita",
-    price: "R$ 15.000 — 30.000",
     color: "olive",
     featured: false,
   },
@@ -89,7 +85,6 @@ const services = [
       "Suporte executivo",
     ],
     gain: "Decisões seguras, evolução constante",
-    price: "R$ 3.000 — 8.000/mês",
     color: "gold",
     featured: false,
   },
@@ -218,14 +213,8 @@ export default function Servicos() {
                       </div>
                     </div>
 
-                    {/* Right column: price + gain + CTA */}
+                    {/* Right column: gain + CTA */}
                     <div className="md:min-w-[200px] flex flex-col items-start md:items-end gap-4">
-                      <div>
-                        <div className="text-xs text-slate-500 mb-1 md:text-right">Investimento</div>
-                        <div className="text-sm font-semibold text-slate-300 md:text-right">
-                          {service.price}
-                        </div>
-                      </div>
                       <div className="flex items-center gap-2 text-xs text-olive-400">
                         <div className="w-1.5 h-1.5 rounded-full bg-olive-500" />
                         {service.gain}
