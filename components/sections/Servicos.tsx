@@ -155,13 +155,6 @@ export default function Servicos() {
                 {service.featured && (
                   <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold-500/40 to-transparent" />
                 )}
-                {service.featured && (
-                  <div className="absolute top-0 right-0 m-4">
-                    <span className="text-xs font-semibold px-3 py-1 rounded-full bg-gold-500/15 border border-gold-500/25 text-gold-400">
-                      Mais impacto
-                    </span>
-                  </div>
-                )}
 
                 <div className="p-6 md:p-8">
                   <div className="flex flex-col md:flex-row md:items-start gap-6">
